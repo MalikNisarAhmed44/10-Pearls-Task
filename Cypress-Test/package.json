@@ -1,0 +1,16 @@
+{
+  "name": "tangelo-automation-framework",
+  "version": "1.0.0",
+  "description": "Tangelo Framework",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests-firefox": "npx cypress run --browser firefox"
+  },
+  "author": "Naqash",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.0"
+  }
+}
